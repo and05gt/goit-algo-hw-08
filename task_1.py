@@ -1,6 +1,8 @@
 import heapq
 
 def min_cost_to_connect_cables(cables):
+    """Finds the minimum cost to connect all cables into one cable."""
+
     if not cables or len(cables) == 1:
         return 0
     
